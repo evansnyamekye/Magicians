@@ -23,7 +23,7 @@
 
 # 📖 React App<a name="about-project"></a>
 
-**This is the initial stage of the react-app sets up and configuring basic dependencies for the entire structure..**
+**This is the initial stage of the react-app sets up and configuring basic dependencies for the entire structure.**
 
 ## 🛠 Built With <a name="built-with"></a>
 
