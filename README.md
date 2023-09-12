@@ -85,7 +85,7 @@ https://github.com/evansnyamekye/react-redux.git
 Navigate to the project directory:
 
 ```sh
- cd awesome-book
+ cd redux-basic
 ```
 
 Open the index.html file in your web browser to view the project:
