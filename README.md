@@ -105,11 +105,6 @@ To use this project, simply visit the following link: https://github.com/evansny
 
 - **Open the <a href="https://github.com/evansnyamekye/react-redux.git">project 🚀</a> in your web browser.**
 
-- **Use the provided form to add books to the list.**
-
-- **To remove a book, click the "Remove" button next to the book entry.**
-
-
 <!-- ### Run tests
 
 To run tests, run the following command: -->
