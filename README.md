@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
-# Awesome-books-ES6
+# React-App
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books<a name="about-project"></a>
+# 📖 React App<a name="about-project"></a>
 
 **This is the initial stage of the react-app sets up and configuring basic dependencies for the entire structure..**
 
