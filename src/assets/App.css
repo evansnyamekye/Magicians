@@ -6,15 +6,15 @@
 }
 
 .calculator {
-  width: 50%;
+  width: 25%;
   margin: auto;
   border: 1px solid gray;
-} 
+}
 
 .key {
   width: 25%;
   cursor: pointer;
-  padding: 1rem; 
+  padding: 1rem;
   border: 1px solid #ddd;
   background: #eaeaea;
 }
@@ -24,7 +24,7 @@
   padding-inline: 5px;
   background: #858693;
   color: white;
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
 .row {
