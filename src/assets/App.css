@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 50%;
+  margin: auto;
+  border: 1px solid gray;
+} 
+
+.key {
+  width: 25%;
+  cursor: pointer;
+  padding: 1rem; 
+  border: 1px solid #ddd;
+  background: #eaeaea;
+}
+
+.display {
+  text-align: right;
+  padding-inline: 5px;
+  background: #858693;
+  color: white;
+  font-size: 2rem; 
+}
+
+.row {
+  display: flex;
+}
+
+.orange {
+  background: #f48a34;
+}
+
+.key:active {
+  transition: transform 0.8s ease;
+  transform: scale(0.8);
+  background: #ccc;
+}
+
+.row:last-child .key:nth-child(1) {
+  width: 50%;
+}
+
+.row:last-child .key:nth-child(2),
+.row:last-child .key:nth-child(3) {
+  width: 25%;
+}
