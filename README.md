@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
-# React-App
+# Math Magicians
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -21,7 +21,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 React App<a name="about-project"></a>
+# 📖 Math Magicians<a name="about-project"></a>
 
 **This is the initial stage of the react-app sets up and configuring basic dependencies for the entire structure.**
 
