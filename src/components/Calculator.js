@@ -15,40 +15,43 @@ function Calculator() {
   };
 
   return (
-    <div className="container">
-      <div className="calculator">
+    <section className="flex flex-col md:flex-row gap-5 sm:mx-auto">
+      <div className="md:w-4/12">
+        <p>Lets do some maths</p>
+      </div>
+      <div className="md:w-8/12">
         <Display result={calculatorObj.next || calculatorObj.total || '0'} />
         <div className="row">
-          <button type="button" className="key" onClick={() => handleButtonClick('AC')}>AC</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('+/-')}>+/-</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('%')}>%</button>
-          <button type="button" className="key orange" onClick={() => handleButtonClick('÷')}>÷</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('AC')}>AC</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('+/-')}>+/-</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('%')}>%</button>
+          <button type="button" className="key !bg-orange-400" onClick={() => handleButtonClick('÷')}>÷</button>
         </div>
         <div className="row">
-          <button type="button" className="key" onClick={() => handleButtonClick('7')}>7</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('8')}>8</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('9')}>9</button>
-          <button type="button" className="key orange" onClick={() => handleButtonClick('x')}>x</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('7')}>7</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('8')}>8</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('9')}>9</button>
+          <button type="button" className="key !bg-orange-400" onClick={() => handleButtonClick('x')}>x</button>
         </div>
         <div className="row">
-          <button type="button" className="key" onClick={() => handleButtonClick('4')}>4</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('5')}>5</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('6')}>6</button>
-          <button type="button" className="key orange" onClick={() => handleButtonClick('-')}>-</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('4')}>4</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('5')}>5</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('6')}>6</button>
+          <button type="button" className="key !bg-orange-400" onClick={() => handleButtonClick('-')}>-</button>
         </div>
         <div className="row">
-          <button type="button" className="key" onClick={() => handleButtonClick('1')}>1</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('2')}>2</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('3')}>3</button>
-          <button type="button" className="key orange" onClick={() => handleButtonClick('+')}>+</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('1')}>1</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('2')}>2</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('3')}>3</button>
+          <button type="button" className="key !bg-orange-400" onClick={() => handleButtonClick('+')}>+</button>
         </div>
         <div className="row">
-          <button type="button" className="key" onClick={() => handleButtonClick('0')}>0</button>
-          <button type="button" className="key" onClick={() => handleButtonClick('.')}>.</button>
-          <button type="button" className="key orange" onClick={() => handleButtonClick('=')}>=</button>
+          <button type="button" className="key w-6/12" onClick={() => handleButtonClick('0')}>0</button>
+          <button type="button" className="key w-3/12" onClick={() => handleButtonClick('.')}>.</button>
+          <button type="button" className="key !bg-orange-400" onClick={() => handleButtonClick('=')}>=</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
