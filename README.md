@@ -64,7 +64,7 @@
 
 <!-- Live Demo -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo">Not yet</a>
 Not Yet 
 
 <!-- GETTING STARTED -->
